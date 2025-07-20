@@ -19,7 +19,7 @@ Perfect for protecting your production system from:
 Installing this extension is straightforward:
 
 ```bash
-git clone https://github.com/yourname/pg_block_if_slow.git
+git clone [https://github.com/yourname/pg_block_if_slow.git](https://github.com/ESHWAR-333/pg_block_if_slow)
 cd pg_block_if_slow
 make
 sudo make install
