@@ -1,0 +1,7 @@
+# pg_block_if_slow.control
+comment = 'Abort query planning if planner estimates execution time too high'
+default_version = '1.0'
+module_pathname = '$libdir/pg_block_if_slow'
+relocatable = false
+
+
