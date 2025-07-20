@@ -42,13 +42,13 @@ CREATE EXTENSION pg_block_if_slow;
 This extension exposes a single configuration parameter:
 
 pg_block_if_slow.threshold
-Type: real
+- Type: ``real``
 
-Default: 100000
+- Default: ``100000``
 
-Scope: USERSET (can be changed at session level)
+- Scope: ``USERSET`` (can be changed at session level)
 
-Description: The maximum estimated query cost allowed before a query is blocked.
+- Description: The maximum estimated query cost allowed before a query is blocked.
 
 You can set this value using any of the following:
 ```
